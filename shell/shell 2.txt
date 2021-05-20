@@ -1,0 +1,3 @@
+terminal command for change multiple file extension 
+
+find mig33/inner.folder -depth -name "*.txt" -exec sh -c 'mv "$1" "${1%.txt}.dat"' _ {} \;

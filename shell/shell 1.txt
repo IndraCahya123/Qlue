@@ -1,0 +1,3 @@
+show count of httpd process that are running on the current machine (windows powershell)
+- (Get-Process httpd).Count
+if there are no httpd process running in current machine, this line will return error
